@@ -1,0 +1,93 @@
+h1{
+    color:brown;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+p{
+    color:darkgreen;
+}
+button{
+    background-color:#f08804;
+   
+}
+body{
+/* background-color:gray; */
+    /* background-color:rgb(190,255,0); */
+    /* we can use color picker by google to select rgb values */
+h2{
+    color:#00ff00;
+    font-family: 'Times New Roman', Times, serif;
+    /* this is hex code we can pick from color picker. */
+}
+*{
+    /* color:pink; */
+}
+#box{
+    /* background-color: blue; */
+}
+.bigclass{
+    color:slategrey;
+}
+p{
+    text-align:center;
+    text-decoration: underline;
+    font-family:cursive;
+    font-size: x-large;
+}
+#box{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border:2px solid brown;
+    padding: 1px 2px 3px 4px;
+    margin-top:50px;
+    position:relative;
+    top:10px;
+    left:10px;
+
+}
+#box2{
+    height: 200px;
+    width:200px;
+    background-color: pink;
+    border:2px solid brown;
+    padding: 1px 2px 3px 4px;
+    margin-top:50px;
+    background-image:url("photo.avif") ;
+    background-size:cover;
+    /* position:absolute;
+    left:20px;
+     */
+}
+#box3{
+    height:100px;
+    width:100px;
+    background-color: green;
+    border-radius:50%;
+   
+}
+#navbar{
+    padding:0;
+    margin:0;
+    background-color: black;
+    color:#f08804;
+    font-size:25px;
+    border:2px solid white;
+}
+a{
+    padding:0;
+    margin:0;
+    background-color: black;
+    color:#f08804;
+    font-size:25px;
+    margin-right: 200px;
+}
+#content{
+    background-color: pink;
+    display:inline-block ;
+    color:white;
+    text-align: center;
+    height: 120px;
+}
+
+}
