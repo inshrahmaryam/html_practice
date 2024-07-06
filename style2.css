@@ -1,0 +1,94 @@
+body{
+    text-align:center;
+}
+div{
+    height:50px;
+    width:150px;
+    border-radius: 50%;
+    display:inline-block;
+    /* border: 2px solid black;
+    flex-direction: row;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s; */
+    border:20px solid aqua;
+    border-top: 20px solid maroon;
+}
+div:hover{
+    background-color:peru;
+    color:aquamarine;
+    font-size: x-large;
+}
+div:active{
+    background-color:pink;
+}
+#container{
+    width:700px;
+    height: 300px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    /* flex-wrap:wrap; */
+    /* align-items: center; */
+}
+/* @media (width:600px){ */
+    div{
+
+        /* border-radius:50%; */
+    color:red;
+    /* animation-name:coloranimate;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+    animation: coloranimate 2s ease-in 0s infinite normal;
+    
+
+ 
+    }
+@keyframes coloranimate{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
+    /* from{background-color: blanchedalmond;
+}
+to{background-color: brown;}
+} */
+/* from{
+ left:0px;
+}
+to{left:200px;}
+} */
+#box1{
+    background-color: aqua;
+    top:20px;
+    left:30px;
+    rotate: 45deg;
+
+}
+#box2{
+    background-color:pink ;
+    /* height:200px; */
+    flex-grow:0;
+}
+
+#box3{
+    background-color: darkgoldenrod;
+    /* height:75px; */
+    /* transform:scale(2); */
+}
+#box4{
+    background-color: indianred;
+}
+#box4:hover{
+    transform:translateY(-200px);
+    /* transform:skew(90deg); */
+}
+/* #box5{
+    background-color: darkblue;
+} */
